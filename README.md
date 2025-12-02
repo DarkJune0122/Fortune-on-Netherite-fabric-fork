@@ -1,9 +1,14 @@
-# Fabric Example Mod
+# Fortune on Netherite (Fabric fork)
+**Original by**: Acherkan.
+Link: https://www.curseforge.com/minecraft/mc-mods/fortune-on-netherite
+(Go follow!)
 
-## Setup
+## Description
+Adds new ore item variant for ancient debris ore block, and allows fortune to multiply the amount.
+Still allows you to obtain ancient debris with silk touch enchantment. 
 
-For setup instructions please see the [fabric documentation page](https://docs.fabricmc.net/develop/getting-started/setting-up) that relates to the IDE that you are using.
-
-## License
-
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+## Fork purpose
+Was made because there is no mod on the same quality for Fabric.
+I'm very thankful for the original creator!
+I don't plan on distributing this mod widely - will only use it in out local server.
+If this fork will get any popularity - I will transfer ownership to the original creator - no questions asked.
