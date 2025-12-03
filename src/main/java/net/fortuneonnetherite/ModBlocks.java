@@ -1,9 +1,13 @@
 package net.fortuneonnetherite;
 
 import net.fabricmc.fabric.api.itemgroup.v1.*;
+import net.fabricmc.fabric.api.object.builder.v1.block.*;
 import net.minecraft.block.*;
+import net.minecraft.block.AbstractBlock.*;
+import net.minecraft.block.enums.*;
 import net.minecraft.item.*;
 import net.minecraft.registry.*;
+import net.minecraft.sound.*;
 import net.minecraft.util.*;
 
 public class ModBlocks{
@@ -11,11 +15,11 @@ public class ModBlocks{
     public static final Block NETHERITE_SCRAP_BLOCK;
 
     static{
-        // Test: make sure that it DOES drop something, thanks to the loot tables.
-        Block.Settings settings = Block.Settings.copy(Blocks.ANCIENT_DEBRIS).dropsNothing();
-
-        NETHERITE_SCRAP_BLOCK = register("netherite_scrap_block", settings);
-        RAW_DEBRIS_BLOCK = register("raw_debris_block", settings);
+        // Simply copies initialization of Netherite block and Ancient debris.
+        NETHERITE_SCRAP_BLOCK = register("netherite_scrap_block", Block.Settings.create()
+        .mapColor(MapColor.BROWN).instrument(NoteBlockInstrument.BELL).requiresTool().strength(10.0F, 1200.0F).sounds(BlockSoundGroup.NETHERITE));
+        RAW_DEBRIS_BLOCK = register("raw_debris_block", Block.Settings.create()
+        .mapColor(MapColor.BROWN).instrument(NoteBlockInstrument.BELL).requiresTool().strength(10.0F, 1200.0F).sounds(BlockSoundGroup.ANCIENT_DEBRIS));
     }
 
     public static void construct(){
