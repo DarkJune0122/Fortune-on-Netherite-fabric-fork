@@ -1,6 +1,0 @@
-{
-  "parent": "item/generated",
-  "textures": {
-    "layer0": "fortune_on_netherite_fabric:item/raw_debris"
-  }
-}

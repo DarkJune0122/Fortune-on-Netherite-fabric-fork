@@ -1,6 +1,6 @@
 {
 	"schemaVersion": 1,
-	"id": "fortune_on_netherite_fabric",
+	"id": "fon",
 	"version": "${version}",
 	"name": "Fortune on Netherite Fabric",
 	"description": "This is an example description! Tell everyone what your mod is about!",
@@ -12,18 +12,18 @@
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/fortune_on_netherite_fabric/icon.png",
+	"icon": "assets/fon/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.fortuneonnetheritefabric.FortuneOnNetheriteFabric"
+			"net.fon.FortuneOnNetheriteFabric"
 		],
 		"fabric-datagen": [
-			"com.fortuneonnetheritefabric.FortuneOnNetheriteFabricDataGenerator"
+			"net.fon.FortuneOnNetheriteFabricDataGenerator"
 		]
 	},
 	"mixins": [
-		"fortune-on-netherite-fabric.mixins.json"
+		"fon.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.18.1",
