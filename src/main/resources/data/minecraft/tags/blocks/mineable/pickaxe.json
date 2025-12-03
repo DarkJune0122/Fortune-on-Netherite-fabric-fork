@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "fortune_on_netherite_forge:raw_debris_block",
+    "fortune_on_netherite_forge:netherite_scrap_block"
+  ]
+}

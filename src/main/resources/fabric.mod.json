@@ -1,22 +1,22 @@
 {
 	"schemaVersion": 1,
-	"id": "fortune-on-netherite-fabric",
+	"id": "fortune_on_netherite_fabric",
 	"version": "${version}",
 	"name": "Fortune on Netherite Fabric",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Turns ancient debris in ore, which drops new ore item.",
 	"authors": [
-		"Me!"
+		"DarkJune", "Acherkan"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/fortune-on-netherite-fabric/icon.png",
+	"icon": "assets/fortune_on_netherite_fabric/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.fortune_on_netherite_fabric.acherkan.FortuneOnNetheriteFabric"
+			"com.fortune_on_netherite_fabric.FortuneOnNetheriteMod"
 		]
 	},
 	"mixins": [
@@ -27,8 +27,5 @@
 		"minecraft": "~1.21.1",
 		"java": ">=21",
 		"fabric-api": "*"
-	},
-	"suggests": {
-		"another-mod": "*"
 	}
 }

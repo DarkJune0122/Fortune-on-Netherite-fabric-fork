@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a"
+  ],
+  "key": {
+    "a": {
+      "item": "fortune_on_netherite_forge:raw_debris_block"
+    }
+  },
+  "result": {
+    "item": "fortune_on_netherite_forge:raw_debris",
+    "count": 9
+  }
+}

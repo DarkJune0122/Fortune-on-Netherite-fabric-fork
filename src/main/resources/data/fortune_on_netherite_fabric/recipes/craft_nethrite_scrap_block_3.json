@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "experience": 10,
+  "cookingtime": 400,
+  "ingredient": {
+    "item": "fortune_on_netherite_forge:raw_debris_block"
+  },
+  "result": "fortune_on_netherite_forge:netherite_scrap_block"
+}

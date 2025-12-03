@@ -1,9 +1,9 @@
 {
 	"required": true,
-	"package": "com.fortune_on_netherite_fabric.acherkan.mixin",
+	"package": "com.fortune_on_netherite_fabric.acherkan",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
-		"ExampleMixin"
+		"FortuneOnNetheriteMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
