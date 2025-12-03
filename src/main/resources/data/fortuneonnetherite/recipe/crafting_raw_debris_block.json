@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "fortuneonnetherite:raw_debris"
+    }
+  },
+  "result": {
+    "id": "fortuneonnetherite:raw_debris_block",
+    "count": 1
+  }
+}

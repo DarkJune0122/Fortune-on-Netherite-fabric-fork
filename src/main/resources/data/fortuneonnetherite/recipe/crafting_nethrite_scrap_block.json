@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:netherite_scrap"
+    }
+  },
+  "result": {
+    "id": "fortuneonnetherite:netherite_scrap_block",
+    "count": 1
+  }
+}

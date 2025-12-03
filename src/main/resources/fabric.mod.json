@@ -1,25 +1,25 @@
 {
 	"schemaVersion": 1,
-	"id": "fon",
+	"id": "fortuneonnetherite",
 	"version": "${version}",
-	"name": "Fortune on Netherite Fabric",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"name": "Fortune on Netherite (fork for Fabric)",
+	"description": "Adds new ore item variant for ancient debris ore block, and allows fortune to multiply the amount!",
 	"authors": [
-		"Me!"
+		"DarkJune", "Acherkan"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/DarkJune0122/Fortune-on-Netherite-fabric-fork"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/fon/icon.png",
+	"icon": "assets/fortuneonnetherite/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"net.fon.FortuneOnNetheriteFabric"
+          "net.fortuneonnetherite.FortuneOnNetheriteFabric"
 		],
 		"fabric-datagen": [
-			"net.fon.FortuneOnNetheriteFabricDataGenerator"
+			"net.fortuneonnetherite.FortuneOnNetheriteFabricDataGenerator"
 		]
 	},
 	"mixins": [

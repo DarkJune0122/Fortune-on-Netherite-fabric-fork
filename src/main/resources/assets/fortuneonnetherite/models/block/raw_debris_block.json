@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "fortuneonnetherite:block/raw_debris_block",
+    "up": "fortuneonnetherite:block/raw_debris_block",
+    "north": "fortuneonnetherite:block/raw_debris_block",
+    "east": "fortuneonnetherite:block/raw_debris_block",
+    "south": "fortuneonnetherite:block/raw_debris_block",
+    "west": "fortuneonnetherite:block/raw_debris_block",
+    "particle": "fortuneonnetherite:block/raw_debris_block"
+  },
+  "render_type": "solid"
+}

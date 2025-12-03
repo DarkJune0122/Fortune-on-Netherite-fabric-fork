@@ -1,6 +1,6 @@
 {
 	"required": true,
-	"package": "net.fon.mixin",
+	"package": "net.fortuneonnetherite.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
       "FortuneOnNetheriteMixin"

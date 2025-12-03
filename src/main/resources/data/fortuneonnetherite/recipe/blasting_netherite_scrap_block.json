@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "ingredient": {
+    "item": "fortuneonnetherite:raw_debris_block"
+  },
+  "result": {
+    "id": "fortuneonnetherite:netherite_scrap_block"
+  },
+  "experience": 225,
+  "cookingtime": 500
+}

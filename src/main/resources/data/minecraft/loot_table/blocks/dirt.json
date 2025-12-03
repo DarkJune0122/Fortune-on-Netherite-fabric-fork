@@ -28,7 +28,7 @@
             },
             {
               "type": "minecraft:item",
-              "name": "fortune_on_netherite_fabric:raw_debris",
+              "name": "fortuneonnetherite:raw_debris",
               "conditions": [],
               "functions": [
                 {
@@ -38,10 +38,7 @@
                 },
                 {
                   "function": "minecraft:set_count",
-                  "count": {
-                    "min": 1,
-                    "max": 5
-                  }
+                  "count": 1
                 }
               ]
             }
