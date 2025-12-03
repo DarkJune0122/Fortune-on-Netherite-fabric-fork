@@ -1,6 +1,8 @@
 package com.fortune_on_netherite_fabric;
 
+import net.fabricmc.fabric.api.loot.v3.*;
 import net.minecraft.item.*;
+import net.minecraft.loot.*;
 import net.minecraft.registry.*;
 import net.minecraft.util.*;
 
@@ -8,7 +10,9 @@ public class ModItems{
     public static final Item RawDebris = register("raw_debris", new Item.Settings());
 
     // Called to initialize static constructors.
-    public static void initialize(){}
+    public static void initialize(){
+
+    }
 
     private static Item register(String name, Item.Settings settings) {
         return Registry.register(
