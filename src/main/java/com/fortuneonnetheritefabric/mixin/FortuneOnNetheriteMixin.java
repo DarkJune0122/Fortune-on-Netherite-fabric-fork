@@ -1,4 +1,4 @@
-package com.fortune_on_netherite_fabric.acherkan;
+package com.fortuneonnetheritefabric.mixin;
 
 import net.minecraft.server.MinecraftServer;
 import org.spongepowered.asm.mixin.Mixin;
