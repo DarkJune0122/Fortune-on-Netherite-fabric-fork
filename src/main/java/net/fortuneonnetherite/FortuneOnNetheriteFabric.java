@@ -24,7 +24,6 @@ public class FortuneOnNetheriteFabric implements ModInitializer {
         // Initializes only after all references were created.
         ModItems.initialize();
         ModBlocks.initialize();
-        ModLootTables.initialize();
 
         LOGGER.info("[FoN Fabric] Mod was successfully registered.");
     }

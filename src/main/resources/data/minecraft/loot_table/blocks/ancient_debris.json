@@ -2,48 +2,46 @@
   "type": "minecraft:block",
   "pools": [
     {
-      "rolls": 1,
+      "name": "main",
+      "rolls": 1.0,
+      "bonus_rolls": 0.0,
       "entries": [
         {
           "type": "minecraft:alternatives",
           "children": [
             {
               "type": "minecraft:item",
-              "name": "minecraft:ancient_debris",
               "conditions": [
                 {
                   "condition": "minecraft:match_tool",
                   "predicate": {
-                    "components": {
-                      "minecraft:enchantments": {
-                        "levels": {
-                          "minecraft:silk_touch": 1
+                    "predicates": {
+                      "minecraft:enchantments": [
+                        {
+                          "enchantments": "minecraft:silk_touch",
+                          "levels": {
+                            "min": 1
+                          }
                         }
-                      }
+                      ]
                     }
                   }
                 }
               ],
-              "functions": []
+              "name": "minecraft:ancient_debris"
             },
             {
               "type": "minecraft:item",
-              "name": "fortuneonnetherite:raw_debris",
-              "conditions": [],
               "functions": [
                 {
-                  "function": "minecraft:apply_bonus",
                   "enchantment": "minecraft:fortune",
-                  "formula": "minecraft:ore_drops"
-                },
-                {
-                  "function": "minecraft:set_count",
-                  "count": 1
+                  "formula": "minecraft:ore_drops",
+                  "function": "minecraft:apply_bonus"
                 }
-              ]
+              ],
+              "name": "fortuneonnetherite:raw_debris"
             }
-          ],
-          "conditions": []
+          ]
         }
       ]
     }
