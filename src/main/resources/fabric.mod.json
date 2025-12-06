@@ -3,7 +3,7 @@
 	"id": "fortuneonnetherite",
 	"version": "${version}",
 	"name": "Fortune on Netherite (fork for Fabric)",
-	"description": "Adds new ore item variant for ancient debris ore block, and allows fortune to multiply the amount!",
+	"description": "Adds new ore item variant for ancient debris ore block, and allows fortune to multiply the amount! Not compatible with NeoChant+ - use special version instead.",
 	"authors": [
 		"DarkJune", "Acherkan"
 	],
@@ -31,7 +31,7 @@
 		"java": ">=21",
 		"fabric-api": "*"
 	},
-	"suggests": {
-		"another-mod": "*"
-	}
+    "conflicts": {
+      "mr_neochant": "*"
+    }
 }
