@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "neoxfortuneonnetherite:netherite_scrap_block"
+    }
+  ],
+  "result": {
+    "id": "minecraft:netherite_scrap",
+    "count": 9
+  }
+}

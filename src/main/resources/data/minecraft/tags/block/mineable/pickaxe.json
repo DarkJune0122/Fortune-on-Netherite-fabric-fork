@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "fortuneonnetherite:raw_debris_block",
-    "fortuneonnetherite:netherite_scrap_block"
+    "neoxfortuneonnetherite:raw_debris_block",
+    "neoxfortuneonnetherite:netherite_scrap_block"
   ]
 }

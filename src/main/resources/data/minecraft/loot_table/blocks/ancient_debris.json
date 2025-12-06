@@ -2,9 +2,60 @@
   "type": "minecraft:block",
   "pools": [
     {
-      "name": "main",
-      "rolls": 1.0,
       "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:furnace_smelt",
+          "conditions": [
+            {
+              "condition": "minecraft:match_tool",
+              "predicate": {
+                "predicates": {
+                  "minecraft:enchantments": [
+                    {
+                      "enchantments": "enchantplus:tools/auto_smelt",
+                      "levels": {
+                        "min": 1
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "function": "minecraft:set_components",
+          "components": {
+            "minecraft:custom_data": {
+              "ne_auto_smelt_drops_xp": true,
+              "ne_auto_smelt_xp": 12
+            }
+          },
+          "conditions": [
+            {
+              "condition": "minecraft:match_tool",
+              "predicate": {
+                "predicates": {
+                  "minecraft:enchantments": [
+                    {
+                      "enchantments": "enchantplus:tools/auto_smelt",
+                      "levels": {
+                        "min": 1
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ],
       "entries": [
         {
           "type": "minecraft:alternatives",
@@ -28,7 +79,7 @@
                   }
                 }
               ],
-              "name": "minecraft:ancient_debris"
+              "name": "neoxfortuneonnetherite:raw_debris"
             },
             {
               "type": "minecraft:item",
@@ -39,11 +90,13 @@
                   "function": "minecraft:apply_bonus"
                 }
               ],
-              "name": "fortuneonnetherite:raw_debris"
+              "name": "neoxfortuneonnetherite:raw_debris"
             }
           ]
         }
-      ]
+      ],
+      "rolls": 1.0
     }
-  ]
+  ],
+  "random_sequence": "minecraft:blocks/ancient_debris"
 }

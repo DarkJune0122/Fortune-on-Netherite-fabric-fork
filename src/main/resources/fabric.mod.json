@@ -1,9 +1,9 @@
 {
 	"schemaVersion": 1,
-	"id": "fortuneonnetherite",
+	"id": "neoxfortuneonnetherite",
 	"version": "${version}",
-	"name": "Fortune on Netherite (fork for Fabric)",
-	"description": "Adds new ore item variant for ancient debris ore block, and allows fortune to multiply the amount! Not compatible with NeoChant+ - use special version instead.",
+	"name": "Fortune on Netherite (fork for Fabric)(NeoEnchant+)",
+	"description": "Adds new ore item variant for ancient debris ore block, and allows fortune to multiply the amount! Compatible with NeoEnchant+.",
 	"authors": [
 		"DarkJune", "Acherkan"
 	],
@@ -12,26 +12,24 @@
 		"sources": "https://github.com/DarkJune0122/Fortune-on-Netherite-fabric-fork"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/fortuneonnetherite/icon.png",
+	"icon": "assets/neoxfortuneonnetherite/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-          "net.fortuneonnetherite.FortuneOnNetheriteFabric"
+          "net.neoxfortuneonnetherite.FortuneOnNetheriteFabric"
 		],
 		"fabric-datagen": [
-			"net.fortuneonnetherite.FortuneOnNetheriteFabricDataGenerator"
+			"net.neoxfortuneonnetherite.FortuneOnNetheriteFabricDataGenerator"
 		]
 	},
 	"mixins": [
 		"fon.mixins.json"
 	],
 	"depends": {
+        "mr_neoenchant": ">=1.0.0",
 		"fabricloader": ">=0.18.1",
 		"minecraft": "~1.21.1",
 		"java": ">=21",
 		"fabric-api": "*"
-	},
-    "conflicts": {
-      "mr_neochant": "*"
-    }
+	}
 }
