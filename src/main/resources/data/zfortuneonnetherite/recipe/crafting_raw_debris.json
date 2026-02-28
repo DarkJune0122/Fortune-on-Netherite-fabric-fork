@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "zfortuneonnetherite:raw_debris_block"
+    }
+  ],
+  "result": {
+    "id": "zfortuneonnetherite:raw_debris",
+    "count": 9
+  }
+}

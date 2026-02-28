@@ -1,0 +1,9 @@
+{
+  "gamerule.alowRawBlocksSmelting.description": "Allows you to disable smelting or blasting the raw copper, iron, gold and debris blocks (does not work yet)",
+  "item.zfortuneonnetherite.raw_debris": "Raw Debris",
+  "item.zfortuneonnetherite.raw_debris_block": "Raw Debris Block",
+  "item.zfortuneonnetherite.netherite_scrap_block": "Netherite Scrap Block",
+  "block.zfortuneonnetherite.raw_debris_block": "Raw Debris Block",
+  "block.zfortuneonnetherite.netherite_scrap_block": "Netherite Scrap Block",
+  "gamerule.alowRawBlocksSmelting": "Allow Raw Blocks Smelting"
+}

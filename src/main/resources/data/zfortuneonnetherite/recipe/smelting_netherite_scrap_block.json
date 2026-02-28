@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "ingredient": {
+    "item": "zfortuneonnetherite:raw_debris_block"
+  },
+  "result": {
+    "id": "zfortuneonnetherite:netherite_scrap_block"
+  },
+  "experience": 180,
+  "cookingtime": 1000
+}

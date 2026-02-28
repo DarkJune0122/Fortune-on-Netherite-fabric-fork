@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "zfortuneonnetherite:block/netherite_scrap_block",
+    "up": "zfortuneonnetherite:block/netherite_scrap_block",
+    "north": "zfortuneonnetherite:block/netherite_scrap_block",
+    "east": "zfortuneonnetherite:block/netherite_scrap_block",
+    "south": "zfortuneonnetherite:block/netherite_scrap_block",
+    "west": "zfortuneonnetherite:block/netherite_scrap_block",
+    "particle": "zfortuneonnetherite:block/netherite_scrap_block"
+  },
+  "render_type": "solid"
+}
